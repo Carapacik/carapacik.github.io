@@ -1,0 +1,4 @@
+baseURL = 'carapacik.github.io'
+languageCode = 'en-us'
+title = 'Carapacik'
+theme = 'PaperMod'
