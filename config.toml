@@ -1,4 +1,4 @@
-baseURL = 'carapacik.github.io'
+baseURL = 'https://carapacik.github.io/'
 languageCode = 'en-us'
 title = 'Carapacik'
 theme = 'PaperMod'
