@@ -1,35 +1,66 @@
 baseURL = "https://carapacik.github.io/"
-languageCode = "en-us"
 title = "Carapacik"
 theme = "PaperMod"
 
-[[menu.main]]
+[languages.en]
+languageName = "English"
+[[languages.en.menu.main]]
 identifier = "posts"
 name = "Blog"
-url = "/posts"
+url = "/posts/"
 weight = 10
 
-[[menu.main]]
+[[languages.en.menu.main]]
 identifier = "projects"
 name = "Projects"
-url = "/projects"
+url = "/projects/"
 weight = 20
 
-[params]
-ShowReadingTime = true
-
-[params.profileMode]
+[languages.en.params.profileMode]
 enabled = true
 title = "Roman Laptev"
 subtitle = "Flutter developer"
 
-[[params.profileMode.buttons]]
+[[languages.en.params.profileMode.buttons]]
 name = "Blog"
-url = "/posts"
+url = "/posts/"
 
-[[params.profileMode.buttons]]
+[[languages.en.params.profileMode.buttons]]
 name = "Projects"
-url = "/projects"
+url = "/projects/"
+
+[languages.ru]
+languageName = "Russian"
+
+[[languages.ru.menu.main]]
+identifier = "posts"
+name = "Блог"
+url = "/posts/"
+weight = 10
+
+[[languages.ru.menu.main]]
+identifier = "projects"
+name = "Проекты"
+url = "/projects/"
+weight = 20
+
+[languages.ru.params.profileMode]
+enabled = true
+title = "Роман Лаптев"
+subtitle = "Flutter разработчик"
+
+[[languages.ru.params.profileMode.buttons]]
+name = "Блог"
+url = "/posts/"
+
+[[languages.ru.params.profileMode.buttons]]
+name = "Проекты"
+url = "/projects/"
+
+
+[params]
+ShowReadingTime = true
+ShowRssButtonInSectionTermList= true
 
 [[params.socialIcons]]
 name = "telegram"
@@ -42,5 +73,3 @@ url = "https://github.com/Carapacik"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:carapacik@gmail.com"
-
-

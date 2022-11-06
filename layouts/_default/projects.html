@@ -9,4 +9,10 @@
   {{- end }}
 </header>
 
+{{- if .Content }}
+<div class="projects">
+  {{ .Content }}
+</div>
+{{- end }}
+
 {{- end }}{{/* end main */}}
