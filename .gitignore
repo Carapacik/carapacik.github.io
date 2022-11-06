@@ -2,7 +2,6 @@
 docs/public*
 /.idea
 .vscode/*
-hugo.exe
 *.test
 *.prof
 nohup.out
@@ -27,3 +26,12 @@ resources/sunset.jpg
 vendor
 
 .hugo_build.lock
+
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+hugo.exe
+hugo.darwin
+hugo.linux

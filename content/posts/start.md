@@ -8,4 +8,3 @@ tags: ["programming", "rest", "flutter", "swagger", "dart"]
 ---
 
 [pub.dev](https://pub.dev/packages/swagger_parser)
-

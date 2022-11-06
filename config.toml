@@ -57,7 +57,6 @@ url = "/ru/posts/"
 name = "Проекты"
 url = "/ru/projects/"
 
-
 [params]
 env = "production"
 author = "Carapacik"
@@ -77,3 +76,6 @@ url = "https://github.com/Carapacik"
 [[params.socialIcons]]
 name = "email"
 url = "mailto://carapacik@gmail.com"
+
+[outputs]
+home = [ "HTML", "RSS" ]
