@@ -1,8 +1,6 @@
 ---
 title: "Проекты"
-layout: "projects"
-url: "/ru/projects"
-summary: "projects"
+summary: "Все проекты, в которых я когда-либо принимал участие"
 ---
 
 - Collectors shop (мобильное приложение)

@@ -1,8 +1,6 @@
 ---
 title: "Projects"
-layout: "projects"
-url: "/projects"
-summary: "projects"
+summary: "All the projects I've ever been involved in"
 ---
 
 - Collectors shop mobile app
