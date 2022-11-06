@@ -1,4 +1,29 @@
-baseURL = 'https://carapacik.github.io/'
-languageCode = 'en-us'
-title = 'Carapacik'
-theme = 'PaperMod'
+baseURL = "https://carapacik.github.io/"
+languageCode = "en-us"
+title = "Carapacik"
+theme = "PaperMod"
+
+[params.profileMode]
+enabled = true
+title = "Carapacik porfolio"
+subtitle = "Flutter developer"
+
+  [[params.profileMode.buttons]]
+  name = "Archive"
+  url = "/"
+
+  [[params.profileMode.buttons]]
+  name = "Portfolio"
+  url = "/"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://carapacik.t.me"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Carapacik"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:carapacik@gmail.com"
