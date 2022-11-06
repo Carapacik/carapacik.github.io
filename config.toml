@@ -6,20 +6,14 @@ theme = "PaperMod"
 [[menu.main]]
 identifier = "posts"
 name = "Blog"
-url = "/posts/"
+url = "/posts"
 weight = 10
 
 [[menu.main]]
 identifier = "projects"
 name = "Projects"
-url = "/projects/"
+url = "/projects"
 weight = 20
-
-[[menu.main]]
-identifier = "posts"
-name = "Blog"
-url = "/posts/"
-weight = 10
 
 [params]
 ShowReadingTime = true
@@ -29,13 +23,13 @@ enabled = true
 title = "Roman Laptev"
 subtitle = "Flutter developer"
 
-  [[params.profileMode.buttons]]
-  name = "Blog"
-  url = "/posts"
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts"
 
-  [[params.profileMode.buttons]]
-  name = "Portfolio"
-  url = "/projects"
+[[params.profileMode.buttons]]
+name = "Projects"
+url = "/projects"
 
 [[params.socialIcons]]
 name = "telegram"
