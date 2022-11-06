@@ -61,6 +61,7 @@ url = "/ru/projects/"
 [params]
 env = "production"
 author = "Carapacik"
+DateFormat = "2 January, 2006"
 ShowReadingTime = true
 ShowShareButtons = true
 ShowRssButtonInSectionTermList = true
