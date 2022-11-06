@@ -5,7 +5,7 @@ theme = "PaperMod"
 
 [params.profileMode]
 enabled = true
-title = "Carapacik porfolio"
+title = "Roman Laptev"
 subtitle = "Flutter developer"
 
   [[params.profileMode.buttons]]
