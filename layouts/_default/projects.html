@@ -15,4 +15,25 @@
 </div>
 {{- end }}
 
+{{ range .Pages }}
+<article class="post-entry">
+  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+  <header class="entry-header">
+    <h3>
+      {{- .Title }}
+    </h3>
+  </header>
+  <div class="entry-content">
+    <p>{{ .Description }}</p>
+  </div>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+</article>
+{{- end }}
+
+
 {{- end }}{{/* end main */}}
