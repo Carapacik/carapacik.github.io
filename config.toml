@@ -51,11 +51,11 @@ subtitle = "Flutter разработчик"
 
 [[languages.ru.params.profileMode.buttons]]
 name = "Блог"
-url = "/posts/"
+url = "/ru/posts/"
 
 [[languages.ru.params.profileMode.buttons]]
 name = "Проекты"
-url = "/projects/"
+url = "/ru/projects/"
 
 
 [params]
