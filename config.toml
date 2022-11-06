@@ -3,18 +3,39 @@ languageCode = "en-us"
 title = "Carapacik"
 theme = "PaperMod"
 
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 20
+
+[[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 10
+
+[params]
+ShowReadingTime = true
+
 [params.profileMode]
 enabled = true
 title = "Roman Laptev"
 subtitle = "Flutter developer"
 
   [[params.profileMode.buttons]]
-  name = "Archive"
-  url = "/"
+  name = "Blog"
+  url = "/posts"
 
   [[params.profileMode.buttons]]
   name = "Portfolio"
-  url = "/"
+  url = "/projects"
 
 [[params.socialIcons]]
 name = "telegram"
@@ -27,3 +48,5 @@ url = "https://github.com/Carapacik"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:carapacik@gmail.com"
+
+
