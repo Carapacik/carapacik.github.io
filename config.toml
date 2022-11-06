@@ -59,8 +59,11 @@ url = "/ru/projects/"
 
 
 [params]
+env = "production"
+author = "Carapacik"
 ShowReadingTime = true
-ShowRssButtonInSectionTermList= true
+ShowShareButtons = true
+ShowRssButtonInSectionTermList = true
 
 [[params.socialIcons]]
 name = "telegram"
@@ -72,4 +75,4 @@ url = "https://github.com/Carapacik"
 
 [[params.socialIcons]]
 name = "email"
-url = "mailto:carapacik@gmail.com"
+url = "mailto://carapacik@gmail.com"
