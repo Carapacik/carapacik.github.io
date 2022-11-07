@@ -2,21 +2,16 @@
 
 <header class="page-header">
   <h1>{{ .Title }}</h1>
-  {{- if .Description }}
-  <div class="post-description">
-    {{ .Description }}
-  </div>
-  {{- end }}
 </header>
 
 {{- if .Content }}
-<div class="projects">
+<div class="projects-content">
   {{ .Content }}
 </div>
 {{- end }}
 
 {{ range .Pages }}
-<article class="post-entry">
+<div class="project-entry">
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
@@ -32,7 +27,7 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
-</article>
+</div>
 {{- end }}
 
 
