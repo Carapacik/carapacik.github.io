@@ -5,4 +5,9 @@
     background: var(--entry);
     border-radius: var(--radius);
     border: 1px solid var(--border);
+    transition: transform 0.1s;
+}
+
+.project-entry:active {
+    transform: scale(0.96);
 }

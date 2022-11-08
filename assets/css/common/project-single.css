@@ -1,3 +1,8 @@
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-content {
     color: var(--content);
 }
@@ -89,8 +94,8 @@
     padding-inline-start: 10px;
 }
 
-.project-content dd ~ dd,
-.project-content dt ~ dt {
+.project-content dd~dd,
+.project-content dt~dt {
     margin-top: 10px;
 }
 
@@ -126,7 +131,7 @@
     direction: ltr;
 }
 
-.project-content li > .highlight {
+.project-content li>.highlight {
     margin-inline-end: 0;
 }
 
@@ -205,15 +210,48 @@
     text-align: center;
 }
 
-.project-content figure > figcaption {
+.project-content figure>figcaption {
     color: var(--primary);
     font-size: 16px;
     font-weight: bold;
     margin: 8px 0 16px;
 }
 
-.project-content figure > figcaption > p {
+.project-content figure>figcaption>p {
     color: var(--secondary);
     font-size: 14px;
     font-weight: normal;
+}
+
+.project-technologies li {
+    display: inline-block;
+    margin-inline-end: 3px;
+    margin-bottom: 5px;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 34px;
+    background: var(--code-bg);
+}
+
+.project-title {
+    font-size: 40px;
+}
+
+.project-description {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.github-icon {
+    padding: 12px 0;
+}
+
+.github-icon a svg {
+    height: 26px;
+    width: 26px;
 }
