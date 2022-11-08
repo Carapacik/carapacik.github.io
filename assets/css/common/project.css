@@ -243,13 +243,17 @@
 }
 
 .project-type {
-    margin: 8px 0;
     color: var(--secondary);
     font-size: 14px;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-type .i18n_list li {
+    display: inline-flex;
+    list-style: none;
+    margin: auto 3px;
+    box-shadow: 0 1px 0 var(--secondary);
 }
 
 .project-description {

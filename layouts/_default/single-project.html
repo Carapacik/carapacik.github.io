@@ -29,9 +29,9 @@
     </div>
     {{- end }}
   </div>
-  {{- partial "translation_list.html" . -}}
   <div class="project-type">
     {{ .Type }}
+    {{- partial "translation_list.html" . -}}
   </div>
   {{- if .Description }}
   <div class="project-description">
