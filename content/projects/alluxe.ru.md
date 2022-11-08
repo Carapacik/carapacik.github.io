@@ -1,7 +1,7 @@
 ---
 title: "Alluxe"
-description: "Мобильное приложение"
+type: "Мобильное приложение"
+description: "Аренда роскоши"
+technologies: ["flutter", "dart", "bloc", "rest"]
 weight: 34
 ---
-
-Аренда люксового имущества

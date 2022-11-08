@@ -1,7 +1,8 @@
 ---
 title: "Superheroes"
-description: "Мультиплатформенное приложение"
+type: "Мультиплатформенное приложение"
+description: "База с супергероями"
+technologies: ["flutter", "dart", "bloc", "rest"]
+github: "https://github.com/Carapacik/Superheroes"
 weight: 44
 ---
-
-База с супергероями

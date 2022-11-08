@@ -1,7 +1,8 @@
 ---
 title: "Тест на реакцию"
-description: "Мультиплатформенное приложение"
+type: "Мультиплатформенное приложение"
+description: "Протестируй свою реакцию"
+technologies: ["flutter", "dart", "google ads"]
+github: "https://github.com/Carapacik/ReactionTest"
 weight: 47
 ---
-
-Протестируй свою реакцию

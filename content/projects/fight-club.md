@@ -1,5 +1,8 @@
 ---
 title: "Fight club"
-description: "Multiplatform game"
+type: "Multiplatform game"
+description: "Beat the enemy and defend yourself"
+technologies: ["flutter", "dart"]
+github: "https://github.com/Carapacik/FightClub"
 weight: 45
 ---

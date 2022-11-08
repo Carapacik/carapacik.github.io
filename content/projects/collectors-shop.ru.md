@@ -1,7 +1,7 @@
 ---
 title: "Collectors shop"
-description: "Мобильное приложение"
+type: "Мобильное приложение"
+description: "Магазин коллекционных предметов для Dota 2"
+technologies: ["flutter", "dart", "bloc"]
 weight: 33
 ---
-
-Продажа коллекционных предметов для игры Dota 2

@@ -1,7 +1,7 @@
 ---
 title: "RecipeBook"
-description: "Мультиплатформенное приложение"
+type: "Мультиплатформенное приложение"
+description: "Книга рецептов"
+technologies: ["flutter", "dart", "fish-redux", "rest"]
 weight: 48
 ---
-
-Книга рецептов

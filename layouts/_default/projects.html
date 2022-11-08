@@ -20,13 +20,11 @@
     </h3>
   </header>
   <div class="entry-content">
+    <p>{{ .Type }}</p>
+  </div>
+  <div class="entry-content">
     <p>{{ .Description }}</p>
   </div>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </div>
-  {{- end }}
 </div>
 {{- end }}
 
