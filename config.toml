@@ -74,6 +74,10 @@ name = "github"
 url = "https://github.com/Carapacik"
 
 [[params.socialIcons]]
+name = "googleplay"
+url = "https://play.google.com/store/apps/developer?id=Carapacik"
+
+[[params.socialIcons]]
 name = "email"
 url = "mailto://carapacik@gmail.com"
 
