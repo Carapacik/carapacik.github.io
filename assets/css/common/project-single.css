@@ -242,16 +242,17 @@
     font-size: 40px;
 }
 
+.project-type {
+    margin: 8px 0;
+    color: var(--secondary);
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
 .project-description {
     margin-top: 10px;
     margin-bottom: 20px;
-}
-
-.github-icon {
-    padding: 12px 0;
-}
-
-.github-icon a svg {
-    height: 26px;
-    width: 26px;
 }

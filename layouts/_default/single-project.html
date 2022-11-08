@@ -5,8 +5,9 @@
     <h1 class="project-title">
       {{ .Title }}
     </h1>
-    {{- if .Params.github }}
-    <div class="github-icon">
+    {{- if or (.Params.github) (.Params.siteLink) }}
+    <div class="social-icons">
+      {{- if .Params.github }}
       <a href="{{ .Params.github }}" target="_blank" rel="noopener noreferrer me" title="GitHub">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
           stroke-linecap="round" stroke-linejoin="round">
@@ -15,10 +16,22 @@
           </path>
         </svg>
       </a>
+      {{- end}}
+      {{- if .Params.siteLink }}
+      <a href="{{ .Params.siteLink }}" target="_blank" rel="noopener noreferrer me" title="Link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+          <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </a>
+      {{- end}}
     </div>
     {{- end }}
   </div>
-
+  <div class="project-type">
+    {{ .Type }}
+  </div>
   {{- if .Description }}
   <div class="project-description">
     {{ .Description }}
