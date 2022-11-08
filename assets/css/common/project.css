@@ -256,3 +256,27 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.project-entry {
+    position: relative;
+    margin-bottom: var(--gap);
+    padding: var(--gap);
+    background: var(--entry);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    transition: transform 0.1s;
+}
+
+.project-entry:active {
+    transform: scale(0.96);
+}
+
+.project-entry-content {
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
