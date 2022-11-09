@@ -5,19 +5,15 @@
 </header>
 
 {{- if .Content }}
-<div class="projects-content">
+<div class="project-content">
   {{ .Content }}
 </div>
 {{- end }}
 
 {{ range .Pages }}
 <div class="project-entry">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
-    <h3>
-      {{- .Title }}
-    </h3>
+    <h3>{{- .Title }}</h3>
   </header>
   <div class="project-type">
     <p>{{ .Type }}</p>

@@ -6,3 +6,5 @@ technologies: ["flutter", "dart", "bloc"]
 layout: "single-project"
 weight: 33
 ---
+
+![Collectors shop](./../../collectors-shop.png)
