@@ -1,6 +1,6 @@
 ---
 title: "swagger_parser"
-description: "Необходимая библиотека, если вы используете REST api с Dart или Kotlin"
+summary: "Необходимая библиотека, если вы используете Retrofit с Dart или Kotlin"
 date: 2022-11-06T15:51:35+03:00
 draft: false
 author: ["Carapacik", "Sancene"]
