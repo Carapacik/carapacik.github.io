@@ -75,7 +75,7 @@ url = "https://github.com/Carapacik"
 
 [[params.socialIcons]]
 name = "email"
-url = "mailto://carapacik@gmail.com"
+url = "mailto:carapacik@gmail.com"
 
 [outputs]
 home = [ "HTML", "RSS" ]
