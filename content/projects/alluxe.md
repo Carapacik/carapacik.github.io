@@ -4,5 +4,5 @@ type: "Mobile app"
 description: "Luxury rental service"
 technologies: ["flutter", "dart", "bloc", "rest"]
 layout: "single-project"
-weight: 34
+weight: 33
 ---

@@ -6,5 +6,5 @@ technologies: ["flutter", "dart", "bloc"]
 github: "https://github.com/Carapacik/WordlyPlus"
 siteLink: "/WordlyPlus"
 layout: "single-project"
-weight: 35
+weight: 34
 ---
