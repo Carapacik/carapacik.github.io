@@ -79,3 +79,6 @@ url = "mailto:carapacik@gmail.com"
 
 [outputs]
 home = [ "HTML", "RSS" ]
+
+[markup.goldmark.renderer]
+unsafe = true
