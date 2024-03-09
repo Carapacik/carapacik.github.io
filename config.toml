@@ -19,7 +19,7 @@ weight = 20
 [languages.en.params.profileMode]
 enabled = true
 title = "Roman Laptev"
-subtitle = "Fullstack developer specializing in Flutter and .NET"
+subtitle = "Fullstack developer specializing in Flutter"
 
 [[languages.en.params.profileMode.buttons]]
 name = "Blog"
@@ -47,7 +47,7 @@ weight = 20
 [languages.ru.params.profileMode]
 enabled = true
 title = "Роман Лаптев"
-subtitle = "Fullstack разработчик, специализирующийся на Flutter и .NET"
+subtitle = "Fullstack разработчик, специализирующийся на Flutter"
 
 [[languages.ru.params.profileMode.buttons]]
 name = "Блог"
