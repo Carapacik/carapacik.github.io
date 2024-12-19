@@ -109,7 +109,7 @@ params:
       url: "mailto:carapacik@gmail.com"
 
   editPost:
-    URL: "https://github.com/Carapacik/carapacik.github.io"
+    URL: "https://github.com/Carapacik/carapacik.github.io/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
