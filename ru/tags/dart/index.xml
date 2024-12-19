@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dart on Carapacik</title>
+    <link>https://carapacik.github.io/ru/tags/dart/</link>
+    <description>Recent content in Dart on Carapacik</description>
+    <generator>Hugo -- 0.140.0</generator>
+    <language>ru</language>
+    <lastBuildDate>Thu, 19 Dec 2024 12:00:00 +0300</lastBuildDate>
+    <atom:link href="https://carapacik.github.io/ru/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dart templates for Android Studio</title>
+      <link>https://carapacik.github.io/ru/posts/dart-templated-android-studio/</link>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0300</pubDate>
+      <guid>https://carapacik.github.io/ru/posts/dart-templated-android-studio/</guid>
+      <description>BLoC and DTO</description>
+    </item>
+  </channel>
+</rss>

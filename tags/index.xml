@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Carapacik</title><link>https://carapacik.github.io/tags/</link><description>Recent content in Tags on Carapacik</description><generator>Hugo -- 0.138.0</generator><language>en</language><lastBuildDate>Wed, 22 Feb 2023 23:08:34 +0300</lastBuildDate><atom:link href="https://carapacik.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Music</title><link>https://carapacik.github.io/tags/music/</link><pubDate>Wed, 22 Feb 2023 23:08:34 +0300</pubDate><guid>https://carapacik.github.io/tags/music/</guid><description/></item><item><title>Phonk</title><link>https://carapacik.github.io/tags/phonk/</link><pubDate>Wed, 22 Feb 2023 23:08:34 +0300</pubDate><guid>https://carapacik.github.io/tags/phonk/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Carapacik</title>
+    <link>https://carapacik.github.io/tags/</link>
+    <description>Recent content in Tags on Carapacik</description>
+    <generator>Hugo -- 0.140.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Dec 2024 12:00:00 +0300</lastBuildDate>
+    <atom:link href="https://carapacik.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dart</title>
+      <link>https://carapacik.github.io/tags/dart/</link>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0300</pubDate>
+      <guid>https://carapacik.github.io/tags/dart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flutter</title>
+      <link>https://carapacik.github.io/tags/flutter/</link>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0300</pubDate>
+      <guid>https://carapacik.github.io/tags/flutter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://carapacik.github.io/tags/music/</link>
+      <pubDate>Thu, 12 Dec 2024 23:00:00 +0300</pubDate>
+      <guid>https://carapacik.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phonk</title>
+      <link>https://carapacik.github.io/tags/phonk/</link>
+      <pubDate>Thu, 12 Dec 2024 23:00:00 +0300</pubDate>
+      <guid>https://carapacik.github.io/tags/phonk/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

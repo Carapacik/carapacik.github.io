@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://carapacik.github.io/sitemap.xml
