@@ -1,7 +1,7 @@
 ---
 title: "Legendary Phonk"
 summary: "Плейлист для поднятия настроения"
-date: 2023-02-22T23:08:34+03:00
+date: 2024-12-12T23:00:00+03:00
 draft: false
 author: ["Carapacik"]
 tags: ["music", "phonk"]

@@ -1,0 +1,173 @@
+baseURL: "https://carapacik.github.io/"
+title: Carapacik
+paginate: 5
+theme: [hugo-PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Blog
+          url: posts/
+          weight: 5
+        - name: Projects
+          url: projects/
+          weight: 10
+
+    params:
+      profileMode:
+        enabled: true
+        title: Roman Laptev
+        imageUrl: "https://avatars.githubusercontent.com/u/52125833"
+        imageTitle: "Me)"
+        # imageWidth: 120
+        # imageHeight: 120
+        subtitle: "Fullstack developer specializing in Flutter"
+        buttons:
+          - name: Blog
+            url: posts/
+          - name: Projects
+            url: projects/
+
+  ru:
+    languageName: "RU"
+    weight: 2
+    menu:
+      main:
+        - name: Блог
+          url: posts/
+          weight: 5
+        - name: Проекты
+          url: projects/
+          weight: 10
+
+    params:
+      profileMode:
+        enabled: true
+        title: Роман Лаптев
+        imageUrl: "https://avatars.githubusercontent.com/u/52125833"
+        imageTitle: "Me)"
+        # imageWidth: 120
+        # imageHeight: 120
+        subtitle: "Fullstack разработчик, специализирующийся на Flutter"
+        buttons:
+          - name: Блог
+            url: posts/
+          - name: Проекты
+            url: projects/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Carapacik
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  socialIcons:
+    - name: telegram
+      title: Send me a message
+      url: "https://carapacik.t.me"
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/adityatelange/hugo-PaperMod"
+    - name: email
+      title: Send me a message
+      url: "mailto:carapacik@gmail.com"
+
+  editPost:
+    URL: "https://github.com/Carapacik/carapacik.github.io"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+
+  assets:
+    disableHLJS: true
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
