@@ -79,9 +79,8 @@ outputs:
 
 params:
   env: production
-  description: "Hehe, I am not a robot boy"
-  author: Carapacik
-  # author: ["Me", "You"] # multiple authors
+  description: "Developer and content creator"
+  author: ["Carapacik", "Carapacik Space"]
 
   defaultTheme: auto
   # disableThemeToggle: true
