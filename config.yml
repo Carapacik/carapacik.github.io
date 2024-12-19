@@ -35,8 +35,8 @@ languages:
         title: Roman Laptev
         imageUrl: "https://avatars.githubusercontent.com/u/52125833"
         imageTitle: "Me)"
-        # imageWidth: 120
-        # imageHeight: 120
+        imageWidth: 140
+        imageHeight: 140
         subtitle: "Fullstack developer specializing in Flutter"
         buttons:
           - name: Blog
@@ -62,8 +62,8 @@ languages:
         title: Роман Лаптев
         imageUrl: "https://avatars.githubusercontent.com/u/52125833"
         imageTitle: "Me)"
-        # imageWidth: 120
-        # imageHeight: 120
+        imageWidth: 140
+        imageHeight: 140
         subtitle: "Fullstack разработчик, специализирующийся на Flutter"
         buttons:
           - name: Блог
@@ -79,7 +79,7 @@ outputs:
 
 params:
   env: production
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "Hehe, I am not a robot boy"
   author: Carapacik
   # author: ["Me", "You"] # multiple authors
 
