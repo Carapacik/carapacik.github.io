@@ -102,7 +102,7 @@ params:
       url: "https://carapacik.t.me"
     - name: github
       title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+      url: "https://github.com/Carapacik"
     - name: email
       title: Send me a message
       url: "mailto:carapacik@gmail.com"
