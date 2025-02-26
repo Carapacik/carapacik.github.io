@@ -8,6 +8,13 @@ tags: ["dart", "flutter"]
 ---
 UPD: 25.02.2025
 
+# How to use templates:
+1. Go to Settings -> Live Templates -> Dart
+
+![Live Templates](./../../templates.jpg)
+
+2. Copy and paste next templates into `Dart`
+
 Flutter BLoC - `frzbloc`
 ```xml
 <template name="frzbloc" value="import 'package:bloc/bloc.dart';&#10;import 'package:freezed_annotation/freezed_annotation.dart';&#10;&#10;part '$class_name$_bloc.freezed.dart';&#10;part '$class_name$_event.dart';&#10;part '$class_name$_state.dart';&#10;&#10;final class $ClassName$Bloc extends Bloc&lt;$ClassName$Event, $ClassName$State&gt; {&#10;  $ClassName$Bloc() : super(const $ClassName$State.idle()) {&#10;    on&lt;_$ClassName$Started&gt;(_start);&#10;  }&#10;&#10;  void _start(_$ClassName$Started event, Emitter&lt;$ClassName$State&gt; emitter) {}&#10;}" description="Freezed BLoC" toReformat="true" toShortenFQNames="true">

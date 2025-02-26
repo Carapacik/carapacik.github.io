@@ -1,6 +1,5 @@
 baseURL: "https://carapacik.github.io/"
 title: Carapacik
-paginate: 5
 theme: [hugo-PaperMod]
 
 enableInlineShortcodes: true
