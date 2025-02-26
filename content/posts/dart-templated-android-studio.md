@@ -1,14 +1,12 @@
 ---
 title: "Dart templates for Android Studio"
 summary: "BLoC and DTO"
-date: 2024-12-19T12:00:00+03:00
+date: 2025-02-25T12:00:00+03:00
 draft: false
 author: ["Carapacik"]
 tags: ["dart", "flutter"]
 ---
-UPD: 25.02.2025
-
-# How to use templates:
+### How to use templates:
 1. Go to Settings -> Live Templates -> Dart
 
 ![Live Templates](./../../templates.jpg)
