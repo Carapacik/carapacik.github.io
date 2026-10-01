@@ -1,0 +1,21 @@
+{{- $project := partial "projects/data.html" . -}}
+{{- with $project.company -}}
+  {{- $company := index hugo.Data.companies . -}}
+  {{- if not $company -}}
+    {{- errorf "Unknown company %q for %s" . $.File.Path -}}
+  {{- else -}}
+  <div class="project-company">
+    {{- if $company.personal -}}
+      {{ i18n "personal_projects" }}
+    {{- else -}}
+      <span class="project-company-name">{{ $company.name }}</span>
+      {{- with $company.previousName }}
+        <span> · {{ i18n "formerly" }} {{ . }}</span>
+      {{- end -}}
+      {{- if $company.freelance }}
+        <span> · {{ i18n "freelance" }}</span>
+      {{- end -}}
+    {{- end -}}
+  </div>
+  {{- end -}}
+{{- end -}}

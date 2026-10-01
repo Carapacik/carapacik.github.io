@@ -1,0 +1,19 @@
+{{ $image := partial "social-image.html" . }}
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Params.profileMode.title }} — {{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ partial "page-description.html" . }}">
+<meta property="og:locale" content="{{ replace .Language.Locale "-" "_" }}">
+{{ range .Translations }}<meta property="og:locale:alternate" content="{{ replace .Language.Locale "-" "_" }}">{{ end }}
+<meta property="og:type" content="{{ if and .IsPage (eq .Section "posts") }}article{{ else }}website{{ end }}">
+{{ if and .IsPage (eq .Section "posts") }}
+{{ with .PublishDate }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ end }}
+<meta property="og:image" content="{{ $image.Permalink }}">
+<meta property="og:image:width" content="{{ $image.Width }}">
+<meta property="og:image:height" content="{{ $image.Height }}">
+<meta property="og:image:alt" content="{{ .Title | default site.Title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ $image.Permalink }}">
+<meta name="twitter:title" content="{{ .Title | default site.Title }}">
+<meta name="twitter:description" content="{{ partial "page-description.html" . }}">

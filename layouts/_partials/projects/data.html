@@ -1,0 +1,9 @@
+{{- $project := index hugo.Data.projects .File.ContentBaseName -}}
+{{- if not $project -}}
+  {{- errorf "Missing project data for %s" .File.Path -}}
+{{- end -}}
+{{- $screenshots := $project.screenshots -}}
+{{- with $project.localizedScreenshots -}}
+  {{- $screenshots = index . $.Language.Lang -}}
+{{- end -}}
+{{- return (merge $project (dict "screenshots" ($screenshots | default slice))) -}}

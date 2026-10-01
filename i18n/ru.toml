@@ -1,0 +1,68 @@
+[personal_projects]
+other = "Open source и личные проекты"
+
+[formerly]
+other = "ранее"
+
+[freelance]
+other = "фриланс"
+
+[open_project]
+other = "Открыть проект"
+
+[all_projects]
+other = "Все проекты"
+
+[technologies]
+other = "Технологии"
+
+[project_website]
+other = "Сайт проекта"
+
+[project_case]
+other = "Кейс"
+
+[downloads]
+other = "Скачать"
+
+[screenshots]
+other = "Скриншоты"
+
+[screenshot]
+other = "скриншот"
+
+[open_screenshot]
+other = "Открыть скриншот"
+
+[close]
+other = "Закрыть"
+
+[previous]
+other = "Назад"
+
+[next]
+other = "Вперёд"
+
+[toggle_theme]
+other = "Переключить тему"
+
+[back_to_top]
+other = "Наверх"
+
+[skip_content]
+other = "Перейти к содержимому"
+
+[rss_description]
+other = "Заметки Романа Лаптева о разработке"
+
+[edit_post]
+other = "Предложить изменения"
+
+[contact_telegram]
+other = "Написать в Telegram"
+
+[contact_github]
+other = "Профиль GitHub"
+
+[contact_email]
+other = "Написать на почту"

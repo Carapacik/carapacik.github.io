@@ -1,0 +1,21 @@
+{{ $image := partial "social-image.html" . }}
+{{ $person := dict "@type" "Person" "name" "Roman Laptev" "url" site.Home.Permalink "sameAs" (slice "https://github.com/Carapacik" "https://carapacik.t.me") }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "WebPage" "name" .Title "url" .Permalink "description" (partial "page-description.html" .) "inLanguage" .Language.Lang "image" $image.Permalink }}
+{{ if .IsHome }}
+  {{ $schema = merge $schema $person }}
+{{ else if and .IsPage (eq .Section "projects") }}
+  {{ $schema = merge $schema (dict "@type" "CreativeWork" "about" .Params.projectType) }}
+{{ else if and .IsPage (eq .Section "posts") }}
+  {{ $schema = merge $schema (dict "@type" "BlogPosting" "headline" .Title "author" $person "articleBody" (.Plain | htmlUnescape)) }}
+  {{ with .PublishDate }}{{ $schema = merge $schema (dict "datePublished" (.Format "2006-01-02T15:04:05Z07:00")) }}{{ end }}
+  {{ with .Lastmod }}{{ $schema = merge $schema (dict "dateModified" (.Format "2006-01-02T15:04:05Z07:00")) }}{{ end }}
+{{ end }}
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{ if not .IsHome }}
+  {{ $items := slice }}
+  {{ range .Ancestors.Reverse }}
+    {{ $items = $items | append (dict "@type" "ListItem" "position" (add (len $items) 1) "name" .Title "item" .Permalink) }}
+  {{ end }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" (add (len $items) 1) "name" .Title "item" .Permalink) }}
+  <script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items | jsonify | safeJS }}</script>
+{{ end }}

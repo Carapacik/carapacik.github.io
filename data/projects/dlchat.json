@@ -1,0 +1,30 @@
+{
+  "technologies": [
+    "dart",
+    "flutter",
+    "bloc",
+    "go_router",
+    "dio",
+    "retrofit",
+    "websocket",
+    "yookassa",
+    "record"
+  ],
+  "company": "diglab",
+  "weight": 5,
+  "screenshots": [
+    {
+      "src": "screenshots/dlchat/desktop-home.webp"
+    },
+    {
+      "src": "screenshots/dlchat/desktop-chat.webp"
+    },
+    {
+      "src": "screenshots/dlchat/mobile-home.webp"
+    },
+    {
+      "src": "screenshots/dlchat/mobile-chat.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/dlchat-flutter"
+}

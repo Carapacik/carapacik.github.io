@@ -1,0 +1,68 @@
+[personal_projects]
+other = "Open source & personal projects"
+
+[formerly]
+other = "formerly"
+
+[freelance]
+other = "freelance"
+
+[open_project]
+other = "Open project"
+
+[all_projects]
+other = "All projects"
+
+[technologies]
+other = "Technologies"
+
+[project_website]
+other = "Website"
+
+[project_case]
+other = "Case study"
+
+[downloads]
+other = "Downloads"
+
+[screenshots]
+other = "Screenshots"
+
+[screenshot]
+other = "screenshot"
+
+[open_screenshot]
+other = "Open screenshot"
+
+[close]
+other = "Close"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[toggle_theme]
+other = "Toggle theme"
+
+[back_to_top]
+other = "Back to top"
+
+[skip_content]
+other = "Skip to content"
+
+[rss_description]
+other = "Development notes by Roman Laptev"
+
+[edit_post]
+other = "Suggest changes"
+
+[contact_telegram]
+other = "Message on Telegram"
+
+[contact_github]
+other = "GitHub profile"
+
+[contact_email]
+other = "Send an email"

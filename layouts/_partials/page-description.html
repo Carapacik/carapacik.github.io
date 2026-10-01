@@ -1,0 +1,6 @@
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- if .IsHome -}}{{- $description = site.Params.description -}}
+  {{- else -}}{{- $description = .Summary | default site.Params.description -}}{{- end -}}
+{{- end -}}
+{{- return ($description | plainify | htmlUnescape | strings.TrimSpace) -}}

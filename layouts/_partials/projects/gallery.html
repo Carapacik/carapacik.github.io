@@ -1,0 +1,39 @@
+{{ with .screenshots }}
+<section class="project-screenshots" aria-label="{{ i18n "screenshots" }}">
+  {{ range $index, $screenshot := . }}
+    {{ $image := resources.Get .src }}
+    {{ with $image }}
+      {{ $small := .Fit "480x960 webp q85" }}
+      {{ $medium := .Fit "800x1200 webp q85" }}
+      {{ $large := .Fit "1440x1440 webp q85" }}
+      {{ $sources := slice }}
+      {{ $widths := slice }}
+      {{ range slice $small $medium $large }}
+        {{ if not (in $widths .Width) }}
+          {{ $sources = $sources | append (printf "%s %dw" .RelPermalink .Width) }}
+          {{ $widths = $widths | append .Width }}
+        {{ end }}
+      {{ end }}
+      {{ $alt := printf "%s — %s %d" $.page.Title (i18n "screenshot") (add $index 1) }}
+      <figure class="project-screenshot{{ if gt .Width .Height }} project-screenshot-wide{{ end }}">
+        <a data-gallery-item href="{{ .RelPermalink }}" aria-label="{{ i18n "open_screenshot" }}: {{ $alt }}">
+          <img src="{{ $medium.RelPermalink }}" srcset="{{ delimit $sources ", " }}" sizes="{{ if gt .Width .Height }}(max-width: 768px) calc(100vw - 48px), 720px{{ else }}(max-width: 480px) calc(100vw - 48px), (max-width: 768px) calc((100vw - 68px) / 2), 350px{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+        </a>
+      </figure>
+    {{ else }}{{ errorf "Missing screenshot %s for %s" .src $.page.File.Path }}{{ end }}
+  {{ end }}
+</section>
+<dialog class="gallery-dialog" aria-label="{{ i18n "screenshots" }}">
+  <div class="gallery-toolbar">
+    <span class="gallery-counter" aria-live="polite"></span>
+    <button type="button" data-gallery-close autofocus>{{ i18n "close" }} ×</button>
+  </div>
+  <div class="gallery-stage"><img class="gallery-image" alt=""></div>
+  <div class="gallery-controls">
+    <button type="button" data-gallery-prev>← {{ i18n "previous" }}</button>
+    <button type="button" data-gallery-next>{{ i18n "next" }} →</button>
+  </div>
+</dialog>
+{{ $script := resources.Get "js/gallery.js" | minify | fingerprint }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+{{ end }}

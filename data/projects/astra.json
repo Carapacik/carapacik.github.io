@@ -1,0 +1,26 @@
+{
+  "technologies": [
+    "dart",
+    "flutter",
+    "bloc",
+    "go_router",
+    "dio",
+    "retrofit"
+  ],
+  "company": "diglab",
+  "weight": 6,
+  "screenshots": [
+    {
+      "src": "screenshots/astra/1.webp"
+    },
+    {
+      "src": "screenshots/astra/2.webp"
+    },
+    {
+      "src": "screenshots/astra/3.webp"
+    },
+    {
+      "src": "screenshots/astra/4.webp"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "technologies": [
+    "dart",
+    "flutter",
+    "bloc",
+    "go_router",
+    "dio",
+    "retrofit",
+    "websocket",
+    "sentry",
+    "appmetrica",
+    "yookassa"
+  ],
+  "company": "diglab",
+  "weight": 7,
+  "screenshots": [
+    {
+      "src": "screenshots/bag24/mobile-home.webp"
+    },
+    {
+      "src": "screenshots/bag24/mobile-paid-storage-order.webp"
+    },
+    {
+      "src": "screenshots/bag24/mobile-payment-methods.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/bag24-storage-flutter"
+}

@@ -1,0 +1,178 @@
+baseURL = "https://carapacik.github.io/"
+title = "Carapacik"
+theme = ["hugo-PaperMod"]
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = ["posts"]
+
+[minify]
+disableXML = true
+# minifyOutput = true
+
+[languages.en]
+label = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Blog"
+url = "posts/"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Projects"
+url = "projects/"
+weight = 10
+
+[languages.en.params]
+description = "Roman Laptev — fullstack developer specializing in Flutter. Projects, apps, and development notes."
+
+[languages.en.params.profileMode]
+enabled = true
+title = "Roman Laptev"
+imageUrl = "https://avatars.githubusercontent.com/u/52125833"
+imageTitle = "Roman Laptev"
+imageWidth = 140
+imageHeight = 140
+subtitle = "Fullstack developer specializing in Flutter"
+
+[[languages.en.params.profileMode.buttons]]
+name = "Blog"
+url = "posts/"
+
+[[languages.en.params.profileMode.buttons]]
+name = "Projects"
+url = "projects/"
+
+[languages.ru]
+label = "RU"
+weight = 2
+
+[[languages.ru.menu.main]]
+name = "Блог"
+url = "posts/"
+weight = 5
+
+[[languages.ru.menu.main]]
+name = "Проекты"
+url = "projects/"
+weight = 10
+
+[languages.ru.params]
+description = "Роман Лаптев — fullstack-разработчик, специализирующийся на Flutter. Проекты, приложения и заметки о разработке."
+
+[languages.ru.params.profileMode]
+enabled = true
+title = "Роман Лаптев"
+imageUrl = "https://avatars.githubusercontent.com/u/52125833"
+imageTitle = "Роман Лаптев"
+imageWidth = 140
+imageHeight = 140
+subtitle = "Fullstack разработчик, специализирующийся на Flutter"
+
+[[languages.ru.params.profileMode.buttons]]
+name = "Блог"
+url = "posts/"
+
+[[languages.ru.params.profileMode.buttons]]
+name = "Проекты"
+url = "projects/"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+env = "production"
+description = "Developer and content creator"
+author = "Roman Laptev"
+
+defaultTheme = "auto"
+# disableThemeToggle = true
+ShowShareButtons = true
+ShowReadingTime = true
+# disableSpecial1stPost = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+
+[[params.socialIcons]]
+name = "telegram"
+title = "Send me a message"
+url = "https://carapacik.t.me"
+
+[[params.socialIcons]]
+name = "github"
+title = "View Source on Github"
+url = "https://github.com/Carapacik"
+
+[[params.socialIcons]]
+name = "email"
+title = "Send me a message"
+url = "mailto:carapacik@gmail.com"
+
+[params.editPost]
+URL = "https://github.com/Carapacik/carapacik.github.io/tree/main/content"
+appendFilePath = true
+
+[params.assets]
+disableHLJS = true
+# favicon = "<link / abs url>"
+# favicon16x16 = "<link / abs url>"
+# favicon32x32 = "<link / abs url>"
+# apple_touch_icon = "<link / abs url>"
+# safari_pinned_tab = "<link / abs url>"
+
+# [params.cover]
+# hidden = true
+# hiddenInList = true
+# hiddenInSingle = true
+
+# [params.fuseOpts]
+# isCaseSensitive = false
+# shouldSort = true
+# location = 0
+# distance = 1000
+# threshold = 0.4
+# minMatchCharLength = 0
+# keys = ["title", "permalink", "summary", "content"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+# anchorLineNos = true
+# codeFences = true
+# guessSyntax = true
+# lineNos = true
+# style = "monokai"
+
+# [privacy.vimeo]
+# disabled = false
+# simple = true
+
+# [privacy.twitter]
+# disabled = false
+# enableDNT = true
+# simple = true
+
+# [privacy.instagram]
+# disabled = false
+# simple = true
+
+# [privacy.youtube]
+# disabled = false
+# privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true

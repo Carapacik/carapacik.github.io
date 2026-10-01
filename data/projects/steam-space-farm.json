@@ -1,0 +1,26 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "c#",
+    ".net",
+    "steamkit",
+    "nativeaot"
+  ],
+  "company": "personal",
+  "weight": 1,
+  "localizedScreenshots": {
+    "en": [
+      {
+        "src": "screenshots/steam-space-farm/en.webp"
+      }
+    ],
+    "ru": [
+      {
+        "src": "screenshots/steam-space-farm/ru.webp"
+      }
+    ]
+  },
+  "siteLink": "https://github.com/CarapacikSpace/SteamSpaceFarm/releases/latest",
+  "github": "https://github.com/CarapacikSpace/SteamSpaceFarm"
+}

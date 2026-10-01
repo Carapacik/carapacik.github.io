@@ -1,0 +1,21 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "redux",
+    "graphql",
+    "firebase analytics"
+  ],
+  "company": "omega",
+  "weight": 18,
+  "screenshots": [
+    {
+      "src": "screenshots/costructorium/1.webp"
+    },
+    {
+      "src": "screenshots/costructorium/2.webp"
+    }
+  ],
+  "siteLink": "https://carapacik.github.io/constructorium-flutter/",
+  "github": "https://github.com/Carapacik/constructorium-flutter"
+}

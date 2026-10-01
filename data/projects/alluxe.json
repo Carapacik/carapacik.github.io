@@ -1,0 +1,20 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "dio",
+    "drift"
+  ],
+  "company": "carapacik-space",
+  "weight": 9,
+  "screenshots": [
+    {
+      "src": "screenshots/alluxe/1.webp"
+    },
+    {
+      "src": "screenshots/alluxe/2.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/alluxe"
+}

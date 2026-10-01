@@ -1,0 +1,10 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "rest"
+  ],
+  "company": "carapacik-space",
+  "weight": 16
+}

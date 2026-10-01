@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ $project := partial "projects/data.html" . }}
+<a class="project-back" href="{{ "projects/" | relLangURL }}">← {{ i18n "all_projects" }}</a>
+<header class="page-header">
+  <h1 class="project-title">{{ .Title }}</h1>
+  <div class="project-type">{{ .Params.projectType }} {{ partial "translation_list.html" . }}</div>
+  {{ partial "project-company.html" . }}
+  {{ with .Description }}<p class="project-description">{{ . }}</p>{{ end }}
+  {{ with $project.technologies }}
+  <ul class="project-technologies" aria-label="{{ i18n "technologies" }}">
+    {{ range . }}<li>{{ . }}</li>{{ end }}
+  </ul>
+  {{ end }}
+  {{ if or $project.github $project.siteLink }}
+  <div class="project-links">
+    {{ with $project.github }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>{{ end }}
+    {{ with $project.siteLink }}
+      {{ $label := i18n "project_website" }}
+      {{ if in . "play.google.com/" }}{{ $label = "Google Play" }}
+      {{ else if in . "rustore.ru/" }}{{ $label = "RuStore" }}
+      {{ else if in . "apps.apple.com/" }}{{ $label = "App Store" }}
+      {{ else if in . "ruward.ru/" }}{{ $label = i18n "project_case" }}
+      {{ else if in . "/releases" }}{{ $label = i18n "downloads" }}{{ end }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $label }} ↗</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</header>
+{{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+{{ partial "projects/gallery.html" (dict "page" . "screenshots" $project.screenshots) }}
+{{ end }}

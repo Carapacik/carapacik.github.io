@@ -1,0 +1,15 @@
+{
+  "technologies": [
+    "flutter",
+    "bloc",
+    "rxdart",
+    "dio",
+    "retrofit",
+    "firebase",
+    "record",
+    "go_router",
+    "websocket"
+  ],
+  "company": "omega",
+  "weight": 12
+}

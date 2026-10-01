@@ -1,0 +1,8 @@
+<div class="social-icons">
+  {{ range site.Params.socialIcons }}
+    {{ $label := i18n (printf "contact_%s" .name) | default .name }}
+    <a href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer me" title="{{ $label }}" aria-label="{{ $label }}">
+      {{ partial "svg.html" . }}
+    </a>
+  {{ end }}
+</div>

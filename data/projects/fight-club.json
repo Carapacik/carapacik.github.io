@@ -1,0 +1,18 @@
+{
+  "technologies": [
+    "flutter",
+    "dart"
+  ],
+  "company": "personal",
+  "weight": 25,
+  "screenshots": [
+    {
+      "src": "screenshots/fight-club/1.webp"
+    },
+    {
+      "src": "screenshots/fight-club/2.webp"
+    }
+  ],
+  "siteLink": "https://carapacik.github.io/fightclub/",
+  "github": "https://github.com/Carapacik/fightclub"
+}

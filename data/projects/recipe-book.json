@@ -1,0 +1,26 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "dio",
+    "asp.net",
+    "c#",
+    "nestjs",
+    "typescript",
+    "postgresql"
+  ],
+  "company": "personal",
+  "weight": 28,
+  "screenshots": [
+    {
+      "src": "screenshots/recipe-book/1.webp"
+    },
+    {
+      "src": "screenshots/recipe-book/2.webp"
+    },
+    {
+      "src": "screenshots/recipe-book/3.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/recipe_book_flutter"
+}

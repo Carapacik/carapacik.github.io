@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.Lang }}" dir="{{ .Language.Direction | default "ltr" }}" data-theme="{{ site.Params.defaultTheme | default "auto" }}">
+<head>{{ partial "head.html" . }}</head>
+<body{{ if ne .Kind "page" }} class="list"{{ end }} id="top">
+  <a class="skip-link" href="#main-content">{{ i18n "skip_content" }}</a>
+  {{ partial "header.html" . }}
+  <main class="main" id="main-content" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  {{ partialCached "footer.html" . .Language.Lang (.Param "hideFooter") (.Param "ShowCodeCopyButtons") }}
+</body>
+</html>

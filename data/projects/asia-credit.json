@@ -1,0 +1,14 @@
+{
+  "technologies": [
+    "flutter",
+    "bloc",
+    "rxdart",
+    "drift",
+    "dio",
+    "retrofit",
+    "firebase",
+    "get_it"
+  ],
+  "company": "omega",
+  "weight": 14
+}

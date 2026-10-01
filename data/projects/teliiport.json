@@ -1,0 +1,22 @@
+{
+  "technologies": [
+    "flutter",
+    "bloc",
+    "rxdart",
+    "dio",
+    "retrofit",
+    "firebase",
+    "get_it"
+  ],
+  "company": "omega",
+  "weight": 13,
+  "screenshots": [
+    {
+      "src": "screenshots/teliiport/1.webp"
+    },
+    {
+      "src": "screenshots/teliiport/3.webp"
+    }
+  ],
+  "siteLink": "https://ruward.ru/cases/7580/"
+}

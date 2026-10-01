@@ -1,0 +1,26 @@
+{
+  "technologies": [
+    "flutter",
+    "bloc",
+    "dio",
+    "google maps",
+    "socket.io",
+    "firebase"
+  ],
+  "company": "omega",
+  "weight": 10,
+  "screenshots": [
+    {
+      "src": "screenshots/bay-optics/1.webp"
+    },
+    {
+      "src": "screenshots/bay-optics/2.webp"
+    },
+    {
+      "src": "screenshots/bay-optics/3.webp"
+    },
+    {
+      "src": "screenshots/bay-optics/4.webp"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[diglab]
+name = "Diglab"
+previousName = "Нейрон"
+
+[omega]
+name = "Omega"
+previousName = "Omega R"
+
+[carapacik-space]
+name = "Carapacik Space"
+freelance = true
+
+[personal]
+personal = true

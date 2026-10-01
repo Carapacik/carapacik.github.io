@@ -1,0 +1,16 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "shared preferences"
+  ],
+  "company": "personal",
+  "weight": 27,
+  "screenshots": [
+    {
+      "src": "screenshots/reaction-test/1.webp"
+    }
+  ],
+  "siteLink": "https://carapacik.github.io/reaction_test/",
+  "github": "https://github.com/Carapacik/reaction_test"
+}

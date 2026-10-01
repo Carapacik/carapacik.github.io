@@ -1,0 +1,29 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+<meta name="description" content="{{ partial "page-description.html" . }}">
+<meta name="author" content="{{ partial "author.html" . }}">
+<meta name="robots" content="{{ if or .Params.robotsNoIndex (not hugo.IsProduction) }}noindex, nofollow{{ else }}index, follow{{ end }}">
+<link rel="canonical" href="{{ .Params.canonicalURL | default .Permalink }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="64x64" href="{{ "favicon.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | absURL }}">
+<meta name="theme-color" content="#1d1e20">
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
+{{ range .AlternativeOutputFormats }}<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ .Name }}">{{ end }}
+{{ $common := resources.Match "css/common/*.css" | resources.Concat "assets/css/common.css" }}
+{{ $extended := resources.Match "css/extended/*.css" | resources.Concat "assets/css/extended.css" }}
+{{ $styles := slice (resources.Get "css/core/license.css") (resources.Get "css/core/theme-vars.css") (resources.Get "css/core/reset.css") $common (resources.Get "css/includes/chroma-styles.css") (resources.Get "css/includes/chroma-mod.css") (resources.Get "css/core/zmedia.css") $extended | resources.Concat "assets/css/stylesheet.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous">
+<script>
+(() => {
+  let theme;
+  try { theme = localStorage.getItem('pref-theme'); } catch {}
+  document.documentElement.dataset.theme = theme === 'dark' || theme === 'light' ? theme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+})();
+</script>
+<noscript><style>#theme-toggle,.top-link{display:none}</style></noscript>
+{{ partial "social-meta.html" . }}
+{{ partial "templates/schema_json.html" . }}
+{{ partial "extend_head.html" . }}

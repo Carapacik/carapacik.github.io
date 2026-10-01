@@ -1,0 +1,29 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "drift"
+  ],
+  "company": "personal",
+  "weight": 4,
+  "screenshots": [
+    {
+      "src": "screenshots/wordly-plus/1.webp"
+    },
+    {
+      "src": "screenshots/wordly-plus/2.webp"
+    },
+    {
+      "src": "screenshots/wordly-plus/3.webp"
+    },
+    {
+      "src": "screenshots/wordly-plus/4.webp"
+    },
+    {
+      "src": "screenshots/wordly-plus/5.webp"
+    }
+  ],
+  "siteLink": "https://carapacik.github.io/wordly-plus/",
+  "github": "https://github.com/Carapacik/wordly-plus"
+}

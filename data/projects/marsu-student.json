@@ -1,0 +1,31 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "rxdart",
+    "fish-redux",
+    "hive",
+    "dio",
+    "retrofit",
+    "firebase",
+    "get_it",
+    "auto_route"
+  ],
+  "company": "omega",
+  "weight": 21,
+  "screenshots": [
+    {
+      "src": "screenshots/marsu-student/1.webp"
+    },
+    {
+      "src": "screenshots/marsu-student/2.webp"
+    },
+    {
+      "src": "screenshots/marsu-student/3.webp"
+    },
+    {
+      "src": "screenshots/marsu-student/4.webp"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "technologies": [
+    "dart",
+    "flutter",
+    "bloc",
+    "go_router",
+    "dio",
+    "retrofit",
+    "websocket",
+    "sentry"
+  ],
+  "company": "diglab",
+  "weight": 8
+}

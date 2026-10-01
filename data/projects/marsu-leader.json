@@ -1,0 +1,31 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "rxdart",
+    "fish-redux",
+    "hive",
+    "dio",
+    "retrofit",
+    "firebase",
+    "get_it",
+    "auto_route"
+  ],
+  "company": "omega",
+  "weight": 19,
+  "screenshots": [
+    {
+      "src": "screenshots/marsu-leader/1.webp"
+    },
+    {
+      "src": "screenshots/marsu-leader/2.webp"
+    },
+    {
+      "src": "screenshots/marsu-leader/3.webp"
+    },
+    {
+      "src": "screenshots/marsu-leader/4.webp"
+    }
+  ]
+}

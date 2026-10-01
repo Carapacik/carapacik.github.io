@@ -1,0 +1,11 @@
+{{- $lines := slice -}}
+{{- $line := "" -}}
+{{- range split .text " " -}}
+  {{- $candidate := printf "%s %s" $line . | strings.TrimSpace -}}
+  {{- if and $line (gt (strings.RuneCount $candidate) $.width) -}}
+    {{- $lines = $lines | append $line -}}
+    {{- $line = . -}}
+  {{- else -}}{{- $line = $candidate -}}{{- end -}}
+{{- end -}}
+{{- $lines = $lines | append $line -}}
+{{- return (delimit $lines "\n") -}}

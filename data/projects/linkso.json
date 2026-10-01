@@ -1,0 +1,22 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "rust",
+    "axum",
+    "sqlx",
+    "postgresql",
+    "docker"
+  ],
+  "company": "personal",
+  "weight": 29,
+  "screenshots": [
+    {
+      "src": "screenshots/linkso/1.webp"
+    },
+    {
+      "src": "screenshots/linkso/2.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/linkso"
+}

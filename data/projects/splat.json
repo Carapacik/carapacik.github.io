@@ -1,0 +1,13 @@
+{
+  "technologies": [
+    "flutter",
+    "bloc",
+    "dio",
+    "go_router",
+    "yandex mapkit",
+    "firebase",
+    "opencv"
+  ],
+  "company": "omega",
+  "weight": 11
+}

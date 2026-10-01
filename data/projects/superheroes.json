@@ -1,0 +1,21 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "rxdart",
+    "rest"
+  ],
+  "company": "personal",
+  "weight": 24,
+  "screenshots": [
+    {
+      "src": "screenshots/superheroes/1.webp"
+    },
+    {
+      "src": "screenshots/superheroes/2.webp"
+    }
+  ],
+  "siteLink": "https://carapacik.github.io/superheroes/",
+  "github": "https://github.com/Carapacik/superheroes"
+}

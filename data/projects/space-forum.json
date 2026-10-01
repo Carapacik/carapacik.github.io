@@ -1,0 +1,24 @@
+{
+  "technologies": [
+    "blazor",
+    "asp.net",
+    "c#",
+    "postgresql",
+    "tailwind css",
+    "docker"
+  ],
+  "company": "personal",
+  "weight": 30,
+  "screenshots": [
+    {
+      "src": "screenshots/space-forum/1.webp"
+    },
+    {
+      "src": "screenshots/space-forum/2.webp"
+    },
+    {
+      "src": "screenshots/space-forum/3.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/SpaceForum"
+}

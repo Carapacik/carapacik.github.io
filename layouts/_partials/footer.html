@@ -1,0 +1,9 @@
+{{ if not (.Param "hideFooter") }}
+<footer class="footer"><span>© {{ now.Year }} <a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a> · Carapacik Space</span></footer>
+{{ end }}
+{{ if not site.Params.disableScrollToTop }}
+<a href="#top" id="top-link" class="top-link hidden" aria-label="{{ i18n "back_to_top" }}" title="{{ i18n "back_to_top" }}">↑</a>
+{{ end }}
+{{ $script := resources.Get "js/site.js" | minify | fingerprint }}
+<script defer src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" data-copy="{{ if .Param "ShowCodeCopyButtons" }}{{ i18n "code_copy" }}{{ end }}" data-copied="{{ i18n "code_copied" }}"></script>
+{{ partial "extend_footer.html" . }}

@@ -1,0 +1,20 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "bloc",
+    "dio",
+    "shelf"
+  ],
+  "company": "personal",
+  "weight": 15,
+  "screenshots": [
+    {
+      "src": "screenshots/gift-manager/1.webp"
+    },
+    {
+      "src": "screenshots/gift-manager/2.webp"
+    }
+  ],
+  "github": "https://github.com/Carapacik/gift_manager"
+}

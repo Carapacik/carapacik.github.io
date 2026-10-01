@@ -1,0 +1,20 @@
+{
+  "technologies": [
+    "flutter",
+    "dart",
+    "canvas",
+    "shared preferences"
+  ],
+  "company": "personal",
+  "weight": 22,
+  "screenshots": [
+    {
+      "src": "screenshots/memegenerator/1.webp"
+    },
+    {
+      "src": "screenshots/memegenerator/2.webp"
+    }
+  ],
+  "siteLink": "https://carapacik.github.io/memegenerator/",
+  "github": "https://github.com/Carapacik/memegenerator"
+}

@@ -1,0 +1,19 @@
+{{- $image := resources.Get (printf "social/%s.png" .Language.Lang) -}}
+{{- if and .IsPage (eq .Section "projects") -}}
+  {{- $project := partial "projects/data.html" . -}}
+  {{- $image = resources.Get "social/project.png" -}}
+  {{- $title := partial "wrap-text.html" (dict "text" .Title "width" 22) -}}
+  {{- $image = $image.Filter (images.Text $title (dict "size" 52 "color" "#f2f2f3" "x" 64 "y" 170 "linespacing" 12)) -}}
+  {{- $image = $image.Filter (images.Text (partial "wrap-text.html" (dict "text" .Params.projectType "width" 30)) (dict "size" 26 "color" "#a9a9b3" "x" 64 "y" 364 "linespacing" 8)) -}}
+  {{- $image = $image.Filter (images.Text "carapacik.github.io" (dict "size" 24 "color" "#dadadb" "x" 64 "y" 564)) -}}
+  {{- with $project.screenshots -}}
+    {{- with resources.Get (index . 0).src -}}
+      {{- $preview := .Fit "450x450" -}}
+      {{- $x := add 660 (div (sub 476 $preview.Width) 2) -}}
+      {{- $y := div (sub 534 $preview.Height) 2 -}}
+      {{- $image = $image.Filter (images.Overlay $preview $x $y) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $image = $image.Process "jpg q85" -}}
+{{- end -}}
+{{- return $image -}}
