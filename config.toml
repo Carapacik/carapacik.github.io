@@ -13,7 +13,6 @@ mainsections = ["posts"]
 
 [minify]
 disableXML = true
-# minifyOutput = true
 
 [languages.en]
 label = "English"
@@ -92,10 +91,8 @@ description = "Developer and content creator"
 author = "Roman Laptev"
 
 defaultTheme = "auto"
-# disableThemeToggle = true
 ShowShareButtons = true
 ShowReadingTime = true
-# disableSpecial1stPost = true
 displayFullLangName = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
@@ -124,55 +121,22 @@ url = "mailto:carapacik@gmail.com"
 URL = "https://github.com/Carapacik/carapacik.github.io/tree/main/content"
 appendFilePath = true
 
+[params.footer]
+text = "Carapacik Space"
+
 [params.assets]
-disableHLJS = true
-# favicon = "<link / abs url>"
-# favicon16x16 = "<link / abs url>"
-# favicon32x32 = "<link / abs url>"
-# apple_touch_icon = "<link / abs url>"
-# safari_pinned_tab = "<link / abs url>"
-
-# [params.cover]
-# hidden = true
-# hiddenInList = true
-# hiddenInSingle = true
-
-# [params.fuseOpts]
-# isCaseSensitive = false
-# shouldSort = true
-# location = 0
-# distance = 1000
-# threshold = 0.4
-# minMatchCharLength = 0
-# keys = ["title", "permalink", "summary", "content"]
+favicon = "favicon.png"
+favicon16x16 = "favicon-16.png"
+favicon32x32 = "favicon-32.png"
+apple_touch_icon = "apple-touch-icon.png"
+safari_pinned_tab = "safari-pinned-tab.svg"
+theme_color = "#1d1e20"
 
 [markup.goldmark.renderer]
 unsafe = true
 
 [markup.highlight]
 noClasses = false
-# anchorLineNos = true
-# codeFences = true
-# guessSyntax = true
-# lineNos = true
-# style = "monokai"
-
-# [privacy.vimeo]
-# disabled = false
-# simple = true
-
-# [privacy.twitter]
-# disabled = false
-# enableDNT = true
-# simple = true
-
-# [privacy.instagram]
-# disabled = false
-# simple = true
-
-# [privacy.youtube]
-# disabled = false
-# privacyEnhanced = true
 
 [services.instagram]
 disableInlineCSS = true

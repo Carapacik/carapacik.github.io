@@ -1,5 +1,5 @@
 ---
-title: "Math pirates"
-description: "An augmented reality game that helps children practice solving arithmetic problems."
+title: "MathPiratesAR"
+description: "Defend an island from pirates by solving arithmetic problems across 140 levels, on screen or in AR."
 projectType: "Mobile AR game"
 ---

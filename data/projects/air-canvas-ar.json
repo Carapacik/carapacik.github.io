@@ -1,0 +1,18 @@
+{
+  "technologies": [
+    "unity",
+    "AR Foundation",
+    "ARCore"
+  ],
+  "company": "personal",
+  "weight": 10,
+  "github": "https://github.com/Carapacik/AirCanvasAR",
+  "screenshots": [
+    {
+      "src": "screenshots/air-canvas-ar/menu.webp"
+    },
+    {
+      "src": "screenshots/air-canvas-ar/artwork.webp"
+    }
+  ]
+}

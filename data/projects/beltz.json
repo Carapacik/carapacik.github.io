@@ -4,5 +4,20 @@
   ],
   "company": "personal",
   "weight": 26,
-  "github": "https://github.com/Carapacik/Beltz"
+  "github": "https://github.com/Carapacik/Beltz",
+  "siteLink": "https://carapacik.github.io/Beltz/",
+  "screenshots": [
+    {
+      "src": "screenshots/beltz/home.webp"
+    },
+    {
+      "src": "screenshots/beltz/level-2.webp"
+    },
+    {
+      "src": "screenshots/beltz/tutorial.webp"
+    },
+    {
+      "src": "screenshots/beltz/levels.webp"
+    }
+  ]
 }

@@ -1,0 +1,28 @@
+{
+  "technologies": [
+    "unity",
+    "AR Foundation",
+    "ARCore",
+    "Meshy AI",
+    ".NET",
+    "SQLite",
+    "OpenStreetMap"
+  ],
+  "company": "personal",
+  "weight": 11,
+  "github": "https://github.com/Carapacik/MeshyToUnityAR",
+  "screenshots": [
+    {
+      "src": "screenshots/meshy-to-unity-ar/menu.webp"
+    },
+    {
+      "src": "screenshots/meshy-to-unity-ar/map.webp"
+    },
+    {
+      "src": "screenshots/meshy-to-unity-ar/ar-placement.webp"
+    },
+    {
+      "src": "screenshots/meshy-to-unity-ar/library.webp"
+    }
+  ]
+}

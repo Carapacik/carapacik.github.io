@@ -1,9 +1,18 @@
 {
   "technologies": [
     "unity",
-    "vuforia"
+    "AR Foundation",
+    "ARCore"
   ],
   "company": "personal",
-  "weight": 23,
-  "github": "https://github.com/Carapacik/MathPiratesAR"
+  "weight": 25,
+  "github": "https://github.com/Carapacik/MathPiratesAR",
+  "screenshots": [
+    {
+      "src": "screenshots/math-pirates/home.webp"
+    },
+    {
+      "src": "screenshots/math-pirates/game.webp"
+    }
+  ]
 }

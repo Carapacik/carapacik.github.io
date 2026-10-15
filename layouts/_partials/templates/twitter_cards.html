@@ -1,0 +1,5 @@
+{{ $image := partial "social-image.html" . }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ $image.Permalink }}">
+<meta name="twitter:title" content="{{ .Title | default site.Title }}">
+<meta name="twitter:description" content="{{ partial "page-description.html" . }}">
