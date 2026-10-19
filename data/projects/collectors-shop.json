@@ -5,5 +5,27 @@
     "bloc"
   ],
   "company": "carapacik-space",
-  "weight": 3
+  "weight": 3,
+  "screenshots": [
+    {
+      "src": "screenshots/collectors-shop/1.webp"
+    },
+    {
+      "src": "screenshots/collectors-shop/2.webp"
+    },
+    {
+      "src": "screenshots/collectors-shop/3.webp"
+    }
+  ],
+  "siteLink": "https://play.google.com/store/apps/details?id=com.carapacik.collectorsshop",
+  "links": [
+    {
+      "label": "App Store",
+      "url": "https://apps.apple.com/by/app/collectors-shop/id6739336347"
+    },
+    {
+      "label": "Telegram Mini App",
+      "url": "https://t.me/collectorsshop_app_bot?startapp"
+    }
+  ]
 }

@@ -11,7 +11,7 @@
     {{ range . }}<li>{{ . }}</li>{{ end }}
   </ul>
   {{ end }}
-  {{ if or $project.github $project.siteLink }}
+  {{ if or $project.github $project.siteLink $project.links }}
   <div class="project-links">
     {{ with $project.github }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>{{ end }}
     {{ with $project.siteLink }}
@@ -23,9 +23,12 @@
       {{ else if in . "/releases" }}{{ $label = i18n "downloads" }}{{ end }}
       <a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $label }} ↗</a>
     {{ end }}
+    {{ range $project.links }}
+      <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }} ↗</a>
+    {{ end }}
   </div>
   {{ end }}
 </header>
-{{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+{{ with .Content }}<div class="post-content md-content">{{ . }}</div>{{ end }}
 {{ partial "projects/gallery.html" (dict "page" . "screenshots" $project.screenshots) }}
 {{ end }}
