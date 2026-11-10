@@ -1,9 +1,22 @@
 ---
 title: "Swagger Parser"
-description: "Generate REST clients and data models for Dart and Kotlin from OpenAPI definitions, with support for multiple schemas and serializers."
+description: "Generate Dart models and HTTP clients from Swagger and OpenAPI JSON or YAML. Use the CLI, Dart API, or web editor."
 projectType: "Developer tool"
 ---
 
-Supports OpenAPI 2, 3.0, and 3.1 in JSON or YAML, loaded from a file or URL. Dart output supports json_serializable, Freezed, and dart_mappable; Kotlin output supports Moshi.
+Swagger Parser 2.0 supports Swagger 2.0 and OpenAPI 3.0, 3.1, and 3.2.
+Generate clients for Retrofit + Dio, standalone Dio, or package:http.
+Choose plain `fromJson`/`toJson`, json_serializable, Freezed, or dart_mappable
+for models.
 
-Available as a [Dart package on pub.dev](https://pub.dev/packages/swagger_parser) and through the web interface.
+Load one or more schemas from files or URLs. Use the CLI or Dart API to
+configure generation. The [web editor](https://carapacik.github.io/swagger_parser/)
+accepts JSON/YAML, config, and custom templates, then downloads the files as a ZIP.
+
+The generator supports schema composition, request/response models, multipart
+uploads, SSE, and JSON Lines. The optional `swagger_parser_templates` package
+adds Mustache templates and helper files.
+
+[Source on GitHub](https://github.com/Carapacik/swagger_parser) ·
+[Package on pub.dev](https://pub.dev/packages/swagger_parser) ·
+[Web editor](https://carapacik.github.io/swagger_parser/)

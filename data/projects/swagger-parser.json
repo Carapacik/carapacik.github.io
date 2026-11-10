@@ -1,13 +1,20 @@
 {
   "technologies": [
     "dart",
-    "kotlin",
     "openapi",
     "retrofit",
+    "dio",
+    "http",
     "code generation"
   ],
   "company": "personal",
   "weight": 2,
   "siteLink": "https://carapacik.github.io/swagger_parser/",
-  "github": "https://github.com/Carapacik/swagger_parser"
+  "github": "https://github.com/Carapacik/swagger_parser",
+  "links": [
+    {
+      "label": "pub.dev",
+      "url": "https://pub.dev/packages/swagger_parser"
+    }
+  ]
 }
