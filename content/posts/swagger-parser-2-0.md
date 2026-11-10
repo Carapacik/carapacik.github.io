@@ -97,6 +97,8 @@ The [web editor][web] is rebuilt with Dart and Jaspr. Paste a schema or load a
 JSON/YAML file, edit the config through controls or YAML, and download the
 result as a ZIP. The archive retains the generated folder structure.
 
+[![Swagger Parser web editor: OpenAPI schema and Dart generation settings](/swagger-parser-web-editor.webp)](/swagger-parser-web-editor.webp)
+
 Separate tabs hold the generator, custom templates, and configuration.
 Generation runs locally in a browser worker. Pages accepts internal `$ref`
 references; external references remain a CLI and library feature.
